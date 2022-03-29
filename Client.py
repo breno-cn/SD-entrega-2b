@@ -14,7 +14,7 @@ with grpc.insecure_channel(address) as channel:
         option = int(input('1 -> CREATE\n2 -> READ\n3 -> UPDATE\n4 -> DELETE\n5 -> ENCERRAR\n'))
 
         if option == 5:
-            break
+            break 
 
         key = input('Digite a chave: ')
         serverStub = ServerStub(channel)

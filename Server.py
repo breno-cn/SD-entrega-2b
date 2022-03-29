@@ -31,7 +31,7 @@ def getHash(key: str):
         i += 1
 
     return sum
-
+  
 def ping(address: str) -> bool:
     response = None
     try:

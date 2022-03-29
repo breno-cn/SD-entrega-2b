@@ -2,7 +2,7 @@
 
 WAIT_FOR_IT() {
     echo "Pressione qualquer tecla para matar os processos"
-    while [ true ] ; do
+    while [ true ] ; do  
         read -t 3 -n 1
         if [ $? = 0 ] ; then
             return ;

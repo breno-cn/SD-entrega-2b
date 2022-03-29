@@ -1,5 +1,5 @@
 SUCESSO = 4
-ERRO = 5
+ERRO = 5 
 
 class Hashtable:
 
